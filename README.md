@@ -25,3 +25,4 @@ The routines fall into three categories:
 
 3) reading from hx711, Channel A (128x and 64x gain) and Channel B (64x gain), done by calling hx711_readA128()/hx711_readA64() and hx711_readB64(), respectively.
 
+The user will need to provide a set of GPIO routines to operate the pins. You can see my implement of GPIO functions here as well.
